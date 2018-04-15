@@ -1,0 +1,318 @@
+
+@media screen and (max-width:767px)  {
+  html {
+    font-size: 12px;
+  }
+
+
+  .nav {
+    flex-direction: column;
+    width: 100%;
+    padding: 0;
+    height: 0;
+    transition: all .4s;
+    margin: 0 auto 1rem;
+  }
+
+  .nav::after {
+    content:none;
+  }
+
+  .nav::before {
+    bottom: -5px;
+  }
+
+  .nav.showing {
+    height: 160px;
+  }
+
+  .nav.showing > .nav-item  a{
+    height: auto;
+    visibility: visible;
+  }
+
+  .nav-item {
+    height: auto;
+    width: 100%;
+    text-align: center;
+  }
+
+  .nav-item a {
+    visibility: hidden;
+    transition: visibility .1s;
+    padding: 1rem 0;
+  }
+
+  .nav-item-img {
+    order: -1;
+    width: 0;
+    height: 0;
+  }
+
+  .nav-item-img a{
+    width:0;
+    padding: 0;
+    height: 0;
+
+  }
+
+  .show-nav {
+    z-index: 5;
+    position: relative;
+    width: 100%;
+    min-width: 100%;
+    height: 50px;
+    opacity: .5;
+  }
+
+
+  .show-nav-elem {
+    position: absolute;
+    width: 7%;
+    min-width: 7%;
+    height: 50px;
+    opacity: .5;
+    right: 30px;
+    top: 15px;
+    cursor: pointer;
+  }
+
+  .show-nav:hover {
+    opacity: 1;
+  }
+
+  .show-nav-elem:after {
+    position: absolute;
+    width: 100%;
+    height: 28%;
+    content: ' ';
+    right: 0;
+    top: 0;
+    border-bottom:2px solid #fff;
+    border-top:2px solid #fff;
+  }
+
+  .show-nav-elem:before {
+    content: ' ';
+    position: absolute;
+    width: 100%;
+    border-bottom:2px solid #fff;
+    right:0px;
+    top: 8px;
+  }
+
+  .container {
+    max-width: 750px;
+  }
+
+  .container-header {
+    min-height: 460px;
+  }
+  
+
+  .container-header::before {
+    top: 4.2rem;
+  }
+
+
+  .header-main {
+    width: 100%;
+  }
+
+  .header-main-slider {
+    border-radius: 0;
+  }
+
+  .arrow-left,
+  .arrow-right {
+    visibility: hidden;
+  } 
+  .header-main-name {
+    width: 55%;
+    height: auto;
+    margin-bottom: 0;
+  }
+
+  .header-main-description {
+    width: 90%;
+    height: auto;
+  }
+
+  .header-main-description_img {
+    margin: 0 auto 1rem;
+  }
+
+  .slider-text {
+    font-size: 1.5rem;
+  }
+  
+  .about-me,
+  .portfolio,
+  .my-blog,
+  .contacts {
+    width: 95%;
+  }
+
+  .portfolio-gallery-browse,
+  .blog-main-show,
+  .social-header {
+    width: 35%;
+  }
+
+  .portfolio-gallery-browse_btn,
+  .blog-main_show-btn,
+  .social-header_btn {
+    font-size: 1.3rem;
+  }
+
+  .about-me_gallery {
+    flex-wrap: wrap;
+  }
+
+  .gallery-item {
+    margin-top: 2rem;
+  }
+
+  .gallery-item-icon {
+    margin: 0 auto;
+    height: 90px;
+    width: 90px;
+  } 
+
+  .gallery-item-name {
+    font-size: 2.7rem;
+  }
+  .gallery-item-description {
+    font-size: 1.1rem;
+  }
+
+  .gallery-item-content {
+    text-align: justify;
+  }
+
+  .portfolio-gallery-nav {
+    width: 100%;
+  }
+
+  .portfolio-gallery-nav_item {
+    height: 3.5rem;
+  }
+
+  .portfolio-gallery-box_item {
+    width: 49%;
+    min-height: 235px;
+  }
+
+  .gallery-box-item_text {
+    margin-top: 4.5rem;
+  }
+
+  .blog-item-img {
+    min-height: 120px;
+    width: 33%;
+  }
+  .message-form {
+    width: 90%;
+  }
+  .social-header_btn {
+    font-size: 1.7rem;
+  }
+
+  .social-main {
+    width: 100%;
+  }
+
+  .social-main-icon {
+    width: 60px;
+    height: 60px;
+  }
+
+  .sliders-container {
+    min-height: 200px;
+  }
+
+}
+
+@media screen and (max-width:767px) and (orientation:landscape)  {
+  .sliders-container {
+    height: 324px;
+  }
+
+  .show-nav-elem {
+    width: 4%;
+    min-width: 4%;
+  }
+}
+
+@media screen and (min-width:768px) and  (max-width:991px)  {
+  html {
+    font-size: 14px;
+  }
+
+  .container {
+    max-width: 950px;
+  }
+
+  .nav {
+    margin-bottom: 3rem;
+  }
+
+  .sliders-container {
+    height: 403px;
+  }
+
+  .portfolio-gallery-box_item {
+    width: 49%;
+    min-height: 301px;
+  }
+
+  .gallery-box-item_text {
+    margin-top: 5rem;
+  }
+}
+
+@media screen and (min-width:992px) and (max-width:1199px)  {
+
+  .container {
+    max-width: 1170px;
+  }
+
+  .portfolio-gallery-nav_item {
+    width: 20%;
+  }
+
+  .portfolio-gallery-box_item {
+    width: 24%;
+    min-height: 245px;
+  }
+  .gallery-box-item_text {
+    margin-top: 3.5rem;
+  }
+
+  .sliders-container {
+    height: 509px;
+  }
+
+}
+@media screen and (min-width:1200px)  {
+
+  .container {
+    max-width: auto;
+  }
+
+  .portfolio-gallery-box_item {
+    width: 24%;
+    min-height: 260px;
+  }
+  .gallery-box-item_text {
+    margin-top: 3.5rem;
+  }
+}
+
+
+  
+
+
+
+ 
+

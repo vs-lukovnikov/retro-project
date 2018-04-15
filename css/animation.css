@@ -1,0 +1,28 @@
+.boxHidden{
+  visibility: hidden;
+}
+.fadeIn, .fadeOut{
+  visibility: visible;  
+}
+
+.delay-01{
+    -webkit-animation-delay: .2s;
+    -moz-animation-delay: .2s;
+    -o-animation-delay: .2s;
+    animation-delay: .2s;
+}
+ 
+.delay-02{
+    -webkit-animation-delay: .4s;
+    -moz-animation-delay: .4s;
+    -o-animation-delay: .4s;
+    animation-delay: .4s;
+}
+
+.delay-03{
+    -webkit-animation-delay: .6s;
+    -moz-animation-delay: .6s;
+    -o-animation-delay: .6s;
+    animation-delay: .6s;
+}
+

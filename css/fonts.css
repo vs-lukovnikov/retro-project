@@ -1,0 +1,42 @@
+@font-face {
+  font-family: "Bazar";
+  src: url("../fonts/Bazar.ttf");
+}
+
+@font-face {
+  font-family: "MyriadPro-Regular";
+  src: url("../fonts/MyriadPro-Regular.otf");
+}
+
+@font-face {
+  font-family: "Oswald-Bold";
+  src: url("../fonts/Oswald-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Oswald-Regular";
+  src: url("../fonts/Oswald-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Oswald-Light";
+  src: url("../fonts/Oswald-Light.ttf");
+}
+
+@font-face {
+  font-family: "RobotoSlab-Regular";
+  src: url("../fonts/RobotoSlab-Regular.ttf");
+}
+
+@font-face {
+  font-family: "RobotoSlab-Bold";
+  src: url("../fonts/RobotoSlab-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Glyphicons-halflings";
+  src: url("../fonts/glyphicons-halflings-regular.svg");
+  src: url("../fonts/glyphicons-halflings-regular.woff");
+}
+
+

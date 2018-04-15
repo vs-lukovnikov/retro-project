@@ -1,0 +1,148 @@
+html {
+  font-size: 16px;
+  height: 100%;
+  min-height: 100%;
+  min-width: 100%;
+}
+
+body {
+  font-family: "Bazar", Arial;
+  color: #383a3c;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  min-height: 100%;
+  min-width: 100%;
+}
+
+ul, li, h1, h2, h3, h4, p, img, a,
+input, label, button, address {
+  margin: 0;
+  padding: 0;
+}
+ 
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+h2 {
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+p {
+
+}
+
+
+.container-header {
+  min-height: 800px;
+  background: url(../img/bg.jpg);
+
+}
+
+.container-header,
+.container-about-me,
+.container-portfolio,
+.container-my-blog,
+.container-contacts {
+  position: relative;
+}
+
+.container-header:before,
+.container-header:after,
+.container-about-me::before,
+.container-about-me::after,
+.container-portfolio::before,
+.container-portfolio::after,
+.container-my-blog::before,
+.container-my-blog::after,
+.container-contacts::before,
+.container-contacts::after {
+  content: "";
+  background: url(../img/divider.png)
+    repeat-x;
+  height: 2px;
+  width: 100vw;
+  position: absolute;
+  z-index: 10;
+}
+
+.container-header::before,
+.container-about-me::before,
+.container-portfolio::before,
+.container-my-blog::before,
+.container-contacts::before {
+  top:.5rem;
+}
+
+.container-header::after,
+.container-about-me::after,
+.container-portfolio::after,
+.container-my-blog::after,
+.container-contacts::after {
+  bottom:.5rem;
+}
+
+
+
+
+main {
+  min-height: 2475px;
+}
+
+footer {
+  min-height: 400px;
+}
+
+.container {
+  max-width: 1600px;
+  width: 1170px;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  margin: 0 auto;
+  position: relative;
+
+}
+
+.container-about-me {
+  background: url(../img/bg2.jpg);
+}
+
+.container-portfolio {
+  background: url(../img/bg3.png);
+}
+
+.container-my-blog {
+  background: url(../img/bg4.png);
+}
+
+.container-contacts {
+  background: url(../img/bg5.jpg);
+}
+
+
+.pull-left {
+  float: left;
+}
+
+.pull-right {
+  float: right;
+}
+
+.clearfix:after {
+  content: " ";
+  width: 100%;
+  clear: both;
+  display: table;
+}
+
+/*header, main, footer {
+  border: 1px solid tomato;
+}*/
+

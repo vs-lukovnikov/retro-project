@@ -1,0 +1,173 @@
+.contacts {
+  color: #f5edd8;
+}
+
+.contacts_header__logo {
+  text-transform: uppercase;
+  font-size: 4.5rem;
+  text-shadow: rgb(72, 74, 77) 3px 3px,
+    rgb(245, 237, 216) 4px 4px;
+}
+
+.message-form {
+  margin: 1rem auto;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+.message-form-elem {
+  box-sizing: border-box;
+  width: 100%;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+  padding: .5rem;
+  color: #555;
+  vertical-align: baseline;
+  background-color: #fff;
+  border: 1px solid #ccc;
+}
+
+.send-message {
+  color: #333;
+  background-color: #fff;
+  border-color: #ccc;
+  font-family: "Oswald-Regular";
+  width: 30%;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+.send-message:hover {
+  background-color: #e6e6e6;
+  border-color: #adadad;
+}
+
+.social-header {
+  margin-bottom: 1rem;
+}
+
+.social-header_btn {
+  color: #f5edd8;
+  font-size: 1.4rem;
+}
+
+.social-header-separator {
+  margin: 0.5rem auto;
+  background: url(../img/colums-separator-inverse.png);
+  width: 30%;
+  height: 2px;
+  z-index: 5;
+}
+
+.social-main {
+  width: 60%;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  margin: 0 auto 1rem;
+  justify-content: space-around;
+}
+
+.social-main-icon {
+  font-size: 0;
+  width: 80px;
+  height: 80px;
+}
+
+.social-main-icon  a{
+  display: block;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.twitter-icon  a{
+  background: url(../img/socials/twitter.png);
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+}
+
+.plunker-icon  a{
+  background: url(../img/socials/plunker.png);
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+}
+
+.fb-icon  a{
+  background: url(../img/socials/Facebook.png);
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+}
+
+.g-icon  a{
+  background: url(../img/socials/google.png);
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+}
+
+.linkedIn-icon  a{
+  background: url(../img/socials/LinkedIn.png);
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+}
+
+.twitter-icon:hover  a{
+  background: url(../img/socials/twitter.hover.png);
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+}
+
+.plunker-icon:hover  a{
+  background: url(../img/socials/plunker.hover.png);
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+}
+
+.fb-icon:hover  a{
+  background: url(../img/socials/Facebook.hover.png);
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+}
+
+.g-icon:hover  a{
+  background: url(../img/socials/google.hover.png);
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+}
+
+.linkedIn-icon:hover  a{
+  background: url(../img/socials/LinkedIn.hover.png);
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+}
+
+
+
+
